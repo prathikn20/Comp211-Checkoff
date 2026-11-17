@@ -1,5 +1,7 @@
 import dis
 import sys
+import ctypes
+
 ctypes.CDLL("./libadd.so")
 
 #int size in Python
